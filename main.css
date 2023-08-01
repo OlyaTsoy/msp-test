@@ -23,7 +23,7 @@ li {
   background-image: url(/header/background.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding-bottom: 15%;
+  padding-bottom: 19%;
 }
 
 .container {
@@ -39,7 +39,6 @@ li {
   padding-top: 35px;
 }
 
-
 .header__button {
   font-family: 'Circe', sans-serif;
   font-size: 16px;
@@ -49,6 +48,7 @@ li {
   border: 0;
   padding: 6.98px 30px;
   margin-left: 28px;
+  cursor: pointer;
 }
 
 .header__link {
@@ -69,8 +69,8 @@ li {
   width: 208.26px;
   margin-top: 63.04px;
   margin-left: 32px;
+  cursor: pointer;
 }
-
 
 .header__text {
   font-size: 35px;
@@ -81,13 +81,11 @@ li {
   width: 576px;
 }
 
-
 .header__item {
   display: block;
   text-align: center;
-  padding-top: 23%;
+  padding-top: 40%;
 }
-
 
 .header__subtext {
   font-size: 30px;
@@ -98,7 +96,6 @@ li {
   margin-left: auto;
 }
 
-
 .header__subButton {
   font-size: 22px;
   color: #FFFFFF;
@@ -108,6 +105,7 @@ li {
   margin-right: 26.82px;
   margin-top: 29px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .header__subButton-red {
@@ -138,9 +136,7 @@ li {
 .benefit__number {
   color: #3865A7;
   font-size: 50px;
-
 }
-
 
 .benefit__text {
   color: #000000;
@@ -155,7 +151,6 @@ li {
 
 .content__title {
   font-size: 24px;
-
 }
 
 .content__list {
@@ -176,7 +171,6 @@ li {
   margin-left: 52px;
 }
 
-
 .content__quote {
   font-size: 16px;
   color: #FE5F5F;
@@ -188,15 +182,12 @@ li {
   margin-top: 22px;
 }
 
-
-
 .content__text {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
   margin-top: 15px;
 }
-
 
 .content__button {
   font-size: 14px;
@@ -211,10 +202,7 @@ li {
   background-position: right;
   background-position-x: 143.64px;
   margin-top: 17px;
-}
-
-.content__button-1 {
-  margin-top: 88px;
+  cursor: pointer;
 }
 
 .questions__title {
@@ -243,6 +231,7 @@ li {
   padding: 13px 50px 11px 79px;
   background-position-x: 41px;
   margin-top: 29px;
+  cursor: pointer;
 }
 
 .questions {
@@ -253,14 +242,13 @@ li {
   padding-bottom: 26px;
 }
 
-
 .questions__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 228px;
+  margin-top: 200px;
+  padding-top: 10%;
 }
-
 
 .footer {
   background-color: #2F2F2F;
@@ -279,14 +267,16 @@ li {
 .footer__link {
   color: #FFFFFF;
   padding-right: 44px;
+  cursor: pointer;
 }
 
 .footer__mail {
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .footer__number {
   color: #FFFFFF;
   padding-left: 34px;
+  cursor: pointer;
 }
-
